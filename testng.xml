@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel Execution Suite" parallel="methods" thread-count="5">
+    <test name="Test Execution">
+        <classes>
+            <class name="com.example.tests.TestClass1"/>
+            <class name="com.example.tests.TestClass2"/>
+        </classes>
+    </test>
+</suite>
