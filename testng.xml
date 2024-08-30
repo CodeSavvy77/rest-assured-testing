@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="Parallel Execution Suite" parallel="methods" thread-count="5">
-    <test name="Test Execution">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="TestListener"/>
+    </listeners>
+    <test name="Sample Test">
         <classes>
-            <class name="com.example.tests.TestClass1"/>
-            <class name="com.example.tests.TestClass2"/>
+            <class name="YourTestClass"/>
         </classes>
     </test>
 </suite>
